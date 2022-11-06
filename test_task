@@ -1,0 +1,57 @@
+The test task:
+
+Create a simple web scraping script that searches for flights from city A to
+city B on the day D and returns first 2 to 3 flight results (only flight time,
+flight cost).
+
+Parameters of the service:
+A - user inputs the start city (you can provide 2 test start points as example,
+ex. East London (ELS) )
+B - user inputs destination city (you can provide 2 test destination points, ex.
+ Abu Dhabi (BUS) (ZVJ) )
+D - user inputs day D (e.g. 22-10-2022)
+
+Please provide the code with comments about the strategy of the solution.
+If the solution is not complete, provide the plan for future development
+iterations.
+Test time - 4 hours
+
+You can use any framework of the choice.
+
+Start page for scraper:
+https://fly2.emirates.com/CAB/IBE/SearchAvailability.aspx
+
+Format of result from the script: [{‘flight time’: ‘time’,’flight cost’:’cost’},.....]
+
+Format of the solution: any format is accepted (e.g. colab notebook, zip archive, etc.).
+PLEASE do not waste time creating GIT repository
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Тестовое задание:
+
+Создайте простой веб-скрапинг-скрипт, который ищет рейсы из города А в город Б
+в день D и возвращает первые 2–3 результата полета (только время полета, стоимость полета).
+
+Параметры услуги:
+A - пользователь вводит начальный город (например, вы можете указать 2 начальных
+ точки теста, например, Восточный Лондон (ELS))
+B - пользовательский ввод города назначения (вы можете указать 2 контрольных
+пункта назначения, например, Абу-Даби (BUS) (ZVJ))
+D - день ввода пользователем D (например, 22-10-2022)
+
+Предоставьте код с комментариями о стратегии решения. Если решение не завершено,
+предоставьте план будущих итераций разработки.
+Время тестирования - 4 часа
+
+Вы можете использовать любой фреймворк по вашему выбору.
+
+Стартовая страница парсера:
+https://fly2.emirates.com/CAB/IBE/SearchAvailability.aspx
+
+Формат результата скрипта: [{'время полета':'время','стоимость полета':'стоимость'},.....]
+
+Формат решения: принимается любой формат (например, блокнот colab, zip-архив и т. д.).
+ПОЖАЛУЙСТА, не тратьте время на создание репозитория GIT
